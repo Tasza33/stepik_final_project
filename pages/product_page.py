@@ -10,7 +10,7 @@ class ProductPage(BasePage):
     def name_for_product_in_basket(self):
         book_name = self.browser.find_element(*ProductPageLocators.BOOK_NAME).text
         add_message_name = self.browser.find_element(*ProductPageLocators.ADD_MESSAGE_NAME).text
-        assert book_name in add_message_name, 'book name in basket is not correct'
+        assert book_name == add_message_name, 'book name in basket is not correct'
 
     def price_for_product_in_basket(self):
         book_price = self.browser.find_element(*ProductPageLocators.BOOK_PRICE).text

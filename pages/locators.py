@@ -14,5 +14,5 @@ class ProductPageLocators:
     BASKET_BUTTON = (By.CSS_SELECTOR, '.btn-add-to-basket')
     BOOK_PRICE = (By.CSS_SELECTOR, '.price_color')
     BOOK_NAME = (By.CSS_SELECTOR, '.breadcrumb .active')
-    ADD_MESSAGE_NAME = (By.CSS_SELECTOR, '.alert:nth-child(1)')
+    ADD_MESSAGE_NAME = (By.CSS_SELECTOR, '.alertinner strong')
     ADD_MESSAGE_PRICE = (By.CSS_SELECTOR, '.alertinner p strong')
