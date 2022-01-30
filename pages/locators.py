@@ -16,3 +16,4 @@ class ProductPageLocators:
     BOOK_NAME = (By.CSS_SELECTOR, '.breadcrumb .active')
     ADD_MESSAGE_NAME = (By.CSS_SELECTOR, '.alertinner strong')
     ADD_MESSAGE_PRICE = (By.CSS_SELECTOR, '.alertinner p strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alertinner')
