@@ -17,3 +17,9 @@ class ProductPageLocators:
     ADD_MESSAGE_NAME = (By.CSS_SELECTOR, '.alertinner strong')
     ADD_MESSAGE_PRICE = (By.CSS_SELECTOR, '.alertinner p strong')
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alertinner')
+
+
+class BasketPageLocators:
+    GO_TO_BASKET_BUTTON = (By.CSS_SELECTOR, '.btn-group a')
+    EMPTY_BASKET_MESSAGE = (By.XPATH, "//p[contains(text(), 'empty')]")
+    BOOKS_IN_BASKET = (By.CSS_SELECTOR, '.thumbnail')
